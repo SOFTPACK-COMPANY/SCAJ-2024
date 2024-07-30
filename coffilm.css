@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+.main_image {
+    background: url(./images/coffilm_main_mob.svg) no-repeat 30% / cover;
+    /* background-size: 100%; */
+}

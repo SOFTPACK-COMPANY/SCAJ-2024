@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+body {
+  background-color: #ffffff;
+}
+header {
+  position: relative;
+}
+h3 {
+  color: #9DB509;
+}
+h2 {
+  font-weight: 900;
+}
+
+#tab-menu {
+  width: 100%;
+}
+#tab-btn {
+  z-index: 99;
+  border-radius: 20px;
+}
+#tab-btn ul {
+  margin: 15px auto;
+  overflow: hidden;
+  padding: 0;
+  width: 86%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2px;
+}
+#tab-btn li {
+  width: 100%; text-align: center;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 800;
+}
+#tab-btn li::marker {
+  content: "";
+}
+#tab-btn li a {
+  display: block; color: #000000; 
+  padding: 7px 15px; 
+  font-weight: bold;
+  background-color: #F7F8F5;
+  border-radius: 10px;
+}
+#tab-btn li.active a {
+  color: #fff;
+  background-color: #D3D622;
+  position: relative;
+  border-radius: 10px;
+}
+#tab-cont {
+  width: 100%;
+  /* padding: 0 3%; */
+  box-sizing: border-box;
+}
+
+.cof_rel {
+  width: 100%; 
+  text-align: center;
+  padding: 20px 0;
+  gap: 15px;
+}
+
+.cof_rel table {
+  width: 86%;
+  background-color: #F7F8F5;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.cof_rel table th {
+  color:#9DB509;
+  font-weight: 900;
+}
+
+.cof_rel span h2 {
+  margin-bottom: 10px;
+}
+
+.eximg {
+  border-radius: 0 30px 30px 0;
+  padding: 0;
+  width: 100%;
+  height: 300px;
+}
+.slide_ex1 {
+  background: url(./images/zip_0.svg) no-repeat 50% 60% / cover;
+  background-size: 140%;
+}
+.slide_ex2 {
+  background: url(./images/box_0.svg) no-repeat 30% 45% / cover;
+  background-size: 130%;
+}
+
+.slide_ex3 {
+  background: url(./images/m_0.svg) no-repeat 50% 60% / cover;
+  background-size: 120%;
+}
+
+.slide_ex4 {
+  background: url(./images/m2.1_0.svg) no-repeat 35% 60% / cover;
+  background-size: 140%;
+}
+
+.sec4 .biodegradable {
+  width: 86%;
+  margin: 0 auto 15px;
+}
+
+.sec4 .biodegradable div{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.sec4 .biodegradable div img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+/* 
+@media (min-width: 500px) {
+  #tab-btn {
+    top: 3%;
+  }
+} */
