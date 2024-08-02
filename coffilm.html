@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOFTPACK COFFILM</title>
-    <link rel="stylesheet" href="./coffilm.css">
-    <link rel="stylesheet" href="./header.css">
-    <link rel="stylesheet" href="./common.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./coffilm.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./common.css">
     
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script defer src="js/header.js"></script>
 </head>
 <body>
     <header>
@@ -21,8 +24,8 @@
                 <span></span>
                 <span></span>
                 <span></span>
-                <ul id="menu">
-                    <a href="#"><li>COFFILM</li></a>
+                <ul id="menu" class="grid">
+                    <a href="./coffilm.html"><li>COFFILM</li></a>
                     <a href="#"><li>IMPAPER</li></a>
                     <a href="#"><li>IMMONO</li></a>
                     <a href="#"><li>ABOUT SOFTPACK</li></a>
@@ -33,22 +36,58 @@
     </header>
 
     <div class="main_image"></div>
-    <section class="sec1">
+
+    <section class="sec1 flex column">
         <ul>
             <li>• 酸素透過度0.2 cc (ALとほぼ同じ / AL: 0 cc)</li>
             <li>• 紙基盤のバリア素材(紙にリサイクル可能)</li>
             <li>• プラスチック & 金属素材の使用量が減少</li>
             <li>• 炭素排出量48%減少</li>
         </ul>
+        <a href="./coffilm_info.html" class="info_button">製品情報見本</a>
     </section>
-    <section class="sec2">
+
+    <section class="sec2 flex column">
         <div>
             <h3>お客様の悩み</h3>
             <ul>
-                <li>• 紙に「酸素・ガスバリア、香り・臭気バリア、   耐油性」を追加</li>
-                <li>• 紙とプラスチック合紙品の性能と変わらず、   簡単に分離してリサイクルできることを希望</li>
+                <li>•&nbsp;&nbsp;紙に「酸素・ガスバリア、香り・臭気バリア、耐油性」を追加</li>
+                <li>•&nbsp;&nbsp;紙とプラスチック合紙品の性能と変わらず、簡単に分離してリサイクルできることを希望</li>
+            </ul>
+        </div>
+        <img src="./images/arrow.png" alt="arrow">
+        <div>
+            <h3><span>Kuraray</span>が提供できる価値！</h3>
+            <ul>
+                <li>•&nbsp;&nbsp;紙の脱プラスチック、プラスチック削減、高機能化とリサイクル性改善</li>
+                <li>•&nbsp;&nbsp;紙製品に圧出合紙用レジン提供</li>
             </ul>
         </div>
     </section>
+
+    <section class="sec3">
+        <div class="flex column">
+            <h2>基本情報</h2>
+            <ul class="center">
+                <li>紙製品の高機能化、リサイクル性の</li>
+                <li>改善に貢献した圧出ラミネート用レジン</li>
+            </ul>
+            <ul>
+                <li><span>耐油性</span>KIT値12 (TAPPI T559基準)</li>
+                <li><span>耐屈曲性</span>曲げに強い</li>
+                <li><span>衛生性</span>間接接触条件下で食品に使用可能</li>
+            </ul>
+            <ul>
+                <li>•&nbsp;&nbsp;ガスバリア性、香り、臭気バリア性</li>
+                <li>•&nbsp;&nbsp;記載する紙の平滑性を問わない</li>
+                <li>•&nbsp;&nbsp;再生可能なバイオマス原料の澱粉が主成分</li>
+                <li>•&nbsp;&nbsp;土中の生分解性 TUV Austria OK compost HOME 取得</li>
+                <li>•&nbsp;&nbsp;水溶性であるため、紙のリパルプ性を妨げない</li>
+                <li>•&nbsp;&nbsp;リサイクル性コーティング層が水に溶解される</li>
+                <li>•&nbsp;&nbsp;多層積層材分離、リサイクル性改善に貢献</li>
+            </ul>
+        </div>
+    </section>
+
 </body>
 </html>
