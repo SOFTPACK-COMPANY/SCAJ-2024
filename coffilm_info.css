@@ -137,9 +137,21 @@ h2 {
   font-size: var(--list-font);
 }
 
+
 @media (min-width: 768px) {
+  #tab-btn li a {
+    padding: 10px 15px;
+    
+  }
   .cof_rel table {
       padding: 15px 180px;
       font-size: 15px;
+  }
+  .sec4 .biodegradable {
+    margin: 15px auto 25px;
+  }
+  .sec4 .biodegradable div {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }

@@ -64,6 +64,6 @@ input:focus{
 @media (min-width: 768px) {
     section {
         padding: 5% 7%;
-    }
-    
+        font-size: var(--main-font);
+    }   
 }

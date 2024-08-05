@@ -45,3 +45,10 @@ footer {
     margin: 0 auto;
     text-transform: uppercase;
 }
+
+@media (min-width: 768px) {
+    .main_menu ul {
+        left: 0; right: 0;
+
+    }
+}
