@@ -6,6 +6,7 @@ body {
 
 h3, h4 {
   color: var(--sub-color);
+  text-align: center;
 }
 h2 {
   font-weight: 900;
@@ -136,7 +137,9 @@ h2 {
   font-size: var(--list-font);
 }
 
-/* 
 @media (min-width: 768px) {
-
-} */
+  .cof_rel table {
+      padding: 15px 180px;
+      font-size: 15px;
+  }
+}

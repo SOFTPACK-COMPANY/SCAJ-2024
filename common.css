@@ -35,7 +35,6 @@ section {
     padding: 7% 4%;
 }
 
-
 :root {
         /* font-color */
         --main-color: #129538;
@@ -61,3 +60,10 @@ input:focus{
 }
 
 .center {text-align: center;}
+
+@media (min-width: 768px) {
+    section {
+        padding: 5% 7%;
+    }
+    
+}

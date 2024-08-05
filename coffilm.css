@@ -10,8 +10,8 @@
 }
 
 .sec1 {
-    padding: 7%;
     gap: 15px;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -49,9 +49,14 @@
     background: url(./images/arrow2.png) no-repeat center center;
 }
 
+.sec1 .info_button:hover::after {
+    background: url(./images/arrow2-1.png) no-repeat center center;
+}
+
 .sec2 {
     gap: 20px;
     align-items: center;
+    flex-direction: column;
 }
 
 .sec2 img {
@@ -100,3 +105,47 @@
     text-align: center;
 }
 
+@media (min-width: 768px) {
+
+    #tab-btn li a {
+        padding: 10px 0;
+        font-size: 15px;
+    }
+    .sec1, .sec2 {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    /* .sec1 .info_button {
+        margin-right: 60px;
+    } */
+    .sec2 {
+        gap: 20px;
+    }
+    .sec2 img {
+        width: 2%;
+        padding: 0;
+        padding-right: 30px;
+        transform:rotate(-90deg);
+    }
+    .sec2 div ul {
+        padding: 0;
+        margin: 0 auto;
+    }
+    .sec2 div:first-child {
+        width: 47%;
+    }
+    .sec2 div:first-child ul {
+        padding: 15px;
+    }
+    .sec2 div:last-child {
+        width: 50%;
+        padding: 0;
+    }
+    .sec2 div:last-child ul {
+        padding: 15px;
+    }
+
+    .sec3 div ul {
+        margin: 0 auto;
+    }
+}

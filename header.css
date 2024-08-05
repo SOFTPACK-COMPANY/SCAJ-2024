@@ -137,3 +137,18 @@ nav {
   height: 70%;
   background: url(./images/logo.svg) no-repeat center center / contain;
 }
+
+
+@media (min-width: 768px) {
+
+  .logo {
+      width: 22%;
+  }
+  #menu {
+      padding: calc(100% - 300px) 30px;
+      font-size: 1rem;
+  }
+  #menu li {
+      font-size: 30px;
+  }
+}
