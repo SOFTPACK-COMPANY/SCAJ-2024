@@ -105,7 +105,7 @@
     text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 620px) {
 
     #tab-btn li a {
         padding: 10px 0;

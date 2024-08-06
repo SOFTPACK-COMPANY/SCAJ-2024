@@ -61,7 +61,7 @@ input:focus{
 
 .center {text-align: center;}
 
-@media (min-width: 768px) {
+@media (min-width: 620px) {
     section {
         padding: 5% 7%;
         font-size: var(--main-font);
