@@ -7,80 +7,155 @@
 }
 
 .main_head {
-    flex-direction: column;
-    gap: 10px;
+    padding: 8% 4.5% 0;
+}
+
+.main_head div {
+    border-bottom: 1px solid #D6D6D6;
+    padding: 0 3% 6%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_head div .main_about {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 0.1rem;
+    color:var(--sub-color);
+    border: 1px solid #D6D6D6;
+    border-radius: 30px;
+    padding: 3px 18px 3px 10px;
+    line-height: 100%;
+}
+
+.main_head div .main_about::after {
+    content: "";
+    position: absolute;
+    right: 8px;
+    top: 50%; bottom: 50%;
+    transform: translate(0, -50%);
+    width: 6px;
+    height: 9px;
+    background: url(./images/arrow2.png) no-repeat center center;
 }
 
 .main_head h6 {
+    display: block;
     word-break: break-word;
+    padding: 3% 3%;
 }
 
 .main_head img {
     width: 45%;
 }
 
+
+/* menu */
+
 .main_menu {
+    height: 70%;
     padding: 2% 4%;
+    gap: 7%;
+    justify-content: center;
 }
 
-.main_menu ul {
+.main_menu span {
+    font-size: var(--list-font);
+}
+
+.main_menu span h5 {
+    color: #797979;
+}
+.main_menu span h2 {
+    color: #3D3D3D;
+}
+
+.main_menu h2 {
+    text-align: left;
+}
+
+.main_menu div {
     gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 
-    1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.main_menu div ul {
+    gap: 10px;
     width: 100%;
-    height: 70vh;
+    height: 25vh;
 }
 
-.main_1 {
-    background-color: var(--main-color);
-    grid-row: 1 / span 4;
-    border-radius: 0 30px 30px;
-}
-.main_2 {
-    background-color: var(--sub-color);
-    grid-row: 1 / span 3;
-    border-radius: 30px 30px 0;
-}
-.main_3 {
-    background-color: #F7F8F5;
-    grid-row: 5 / span 2;
-    border-radius: 30px;
-}
-.main_4 {
-    background-color: var(--back-color);
-    grid-row: 4 / span 3;
-    border-radius: 30px 0 30px 30px;
+.main_menu div ul li a {
+    display: block;
 }
 
-.main_menu ul li {
+.main_menu div ul li {
     width: 100%;
     height: 100%;
+    border-radius: 30px;
 }
 
-.main_menu ul li a {
+.main_menu div ul li a {
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.main_menu ul .main_1 a {
-    background: url(./images/coffilm_logo.png) no-repeat 50% 90% / contain;
-    background-size: 85%;
-}
-.main_menu ul .main_2 a {
-    background: url(./images/impaper.svg) no-repeat 50% 90% / contain;
-    background-size: 70%;
-}
-/* .main_menu ul .main_3 a {
-    background: url(./images/immono.svg) no-repeat 50% 90% / contain;
-    background-size: 75%;
-} */
-.main_menu ul .main_4 a {
-    background: url(./images/immono.svg) no-repeat 50% 90% / contain;
-    background-size: 65%;
+.main_menu div .main_1 li:first-child {
+    background: url(./images/main_1.jpg) no-repeat center center / cover;
+    overflow: hidden;
 }
 
+.main_menu div .main_1 li:first-child a {
+    background: url(./images/impaper.svg) no-repeat center bottom 10% / contain;
+    background-size: 70%;
+}
+
+.main_menu div .main_1 li:last-child {
+    background: url(./images/main_2.jpg) no-repeat center center / cover;
+    overflow: hidden;
+}
+
+.main_menu div .main_1 li:last-child  a {
+    background: url(./images/immono.svg) no-repeat center bottom 10% / contain;
+    background-size: 70%;
+}
+
+.main_menu div span{
+    position: relative;
+    padding-left: 15px;
+}
+
+.main_menu div:first-child span::after {
+    content: "";
+    position: absolute;
+    left: 0; top: 2px;
+    background-color: #D6D6D6;
+    width: 4px;
+    height: 90%;
+}
+
+.main_menu div:last-child span::after {
+    content: "";
+    position: absolute;
+    left: 0; top: 2px;
+    background-color: #70A4C5;
+    width: 4px;
+    height: 90%;
+}
+
+
+.main_menu div .main_2 {
+    height: 18vh;
+}
+
+.main_menu div .main_2 li {
+    background: url(./images/main_3.jpg) no-repeat center center / cover;
+}
+
+.main_menu div .main_2 li a {
+    background: url(./images/coffilm.svg) no-repeat right 10% bottom 15% / contain;
+    background-size: 45%;
+}
 
 footer {
     width: 100%;
