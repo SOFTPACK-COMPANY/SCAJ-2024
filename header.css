@@ -111,7 +111,7 @@ nav {
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
 
-  padding: calc(100% + -34px) 30px;
+  padding: calc(100% + 5px) 30px;
   width: 100%;
   transform-origin: -60px 0%;
   transform: translate(-120%, 0);
@@ -132,7 +132,7 @@ nav {
   position: absolute;
   left: 50%; right: 50%; top: 10px;
   transform: translate(-50%, 0);
-  z-index: 3;
+  z-index: 10;
   width: 33%;
   height: 70%;
   background: url(./images/logo.svg) no-repeat center center / contain;

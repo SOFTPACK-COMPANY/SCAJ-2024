@@ -20,7 +20,7 @@
 .main_head div .main_about {
     position: relative;
     text-transform: uppercase;
-    font-size: 0.1rem;
+    font-size: 0.3rem;
     color:var(--sub-color);
     border: 1px solid #D6D6D6;
     border-radius: 30px;
@@ -54,7 +54,7 @@
 
 .main_menu {
     height: 70%;
-    padding: 2% 4%;
+    padding: 0 4.5%;
     gap: 7%;
     justify-content: center;
 }
@@ -64,7 +64,7 @@
 }
 
 .main_menu span h5 {
-    color: #797979;
+    color: #3D3D3D;
 }
 .main_menu span h2 {
     color: #3D3D3D;
@@ -168,8 +168,30 @@ footer {
 }
 
 @media (min-width: 620px) {
-    .main_menu ul {
-        left: 0; right: 0;
-
-    }
+    .main_head {
+        padding: 8% 10.5% 0;}
+    .main_head div {
+        padding: 0 3% 4%;}
+    .main_head div .main_about {
+        font-size: 1rem;
+        padding: 10px 25px 10px 14px;}
+    .main_head h6 {
+        font-size: 1rem;
+        padding: 3% 3% 0; }
+    .main_menu {
+        padding: 0 10.5%;}
+    .main_menu div {
+        gap: 18px;}
+    .main_menu div span {
+        padding-left: 18px;}
+    .main_menu div ul {
+        gap: 18px;}
+    .main_menu span h5 {
+        font-size: 0.9rem;}
+    .main_menu span h2 {
+        font-size: 1.6rem;}
+    .main_menu div:first-child span::after {
+        width: 7px;}
+    .main_menu div:last-child span::after {
+    width: 7px;}
 }
