@@ -26,12 +26,12 @@
     width: 100px;
     display: block;
     text-align: center;
-    padding: 14px 40px 14px 27px;
+    padding: 12px 50px 12px 42px;
     color: #ffffff;
     border-radius: 30px;
     transition: 0.3s;
     z-index: 0;
-    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.3);
 }
 
 .sec1 .info_button:hover {
@@ -161,7 +161,9 @@
     .sec2 div:last-child ul {
         padding: 15px;
     }
-
+    .sec3 {
+        margin: 0;
+    }
     .sec3 div ul {
         margin: 0 auto;
     }
