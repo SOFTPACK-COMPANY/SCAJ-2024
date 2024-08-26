@@ -47,6 +47,10 @@ nav {
   color: #129538;
 }
 
+#menuToggle a li {
+  font-family: 'Pretendard-Regular';
+}
+
 #menuToggle input {
   display: block;
   width: 38px;
