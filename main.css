@@ -57,9 +57,9 @@
 /* menu */
 
 .main_menu {
-    height: 63%;
+    height: 70%;
     padding: 0 4.5%;
-    /* gap: 7%; */
+    gap: 10%;
     justify-content: space-between;
 }
 
@@ -86,7 +86,7 @@
 .main_menu div ul {
     gap: 10px;
     width: 100%;
-    height: 25vh;
+    height: 38vh;
 }
 
 .main_menu div ul li a {
@@ -105,24 +105,39 @@
     height: 100%;
 }
 
-.main_menu div .main_1 li:first-child {
-    background: url(./images/main_1.jpg) no-repeat center center / cover;
+.main_menu div .main_1{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main_menu div .main_1 .immono {
+    background: url(./images/main_1.jpg) no-repeat center bottom 25%  / cover;
     overflow: hidden;
 }
 
-.main_menu div .main_1 li:first-child a {
-    background: url(./images/impaper.svg) no-repeat center bottom 10% / contain;
-    background-size: 70%;
+.main_menu div .main_1 .immono a {
+    background: url(./images/immono.svg) no-repeat center bottom 25% / contain;
+    background-size: 50%;
 }
 
-.main_menu div .main_1 li:last-child {
-    background: url(./images/main_2.jpg) no-repeat center center / cover;
+.main_menu div .main_1 .impaper {
+    background: url(./images/main_2.jpg) no-repeat center bottom 20%  / cover;
     overflow: hidden;
 }
 
-.main_menu div .main_1 li:last-child  a {
-    background: url(./images/immono.svg) no-repeat center bottom 10% / contain;
-    background-size: 70%;
+.main_menu div .main_1 .impaper a {
+    background: url(./images/impaper.svg) no-repeat center bottom 25% / contain;
+    background-size: 55%;
+}
+
+.main_menu div .main_1 .imbio {
+    background: url(./images/imbio1-1.jpg) no-repeat center bottom 25% / cover;
+    overflow: hidden;
+}
+
+.main_menu div .main_1 .imbio a {
+    background: url(./images/imbio.svg) no-repeat center bottom 25% / contain;
+    background-size: 35%;
 }
 
 .main_menu div span{
@@ -134,7 +149,7 @@
     content: "";
     position: absolute;
     left: 0; top: 2px;
-    background-color: #D6D6D6;
+    background-color: #70A4C5;
     width: 4px;
     height: 90%;
 }
@@ -143,18 +158,18 @@
     content: "";
     position: absolute;
     left: 0; top: 2px;
-    background-color: #70A4C5;
+    background-color: #D6D6D6;
     width: 4px;
     height: 90%;
 }
 
 
 .main_menu div .main_2 {
-    height: 18vh;
+    height: 16vh;
 }
 
 .main_menu div .main_2 li {
-    background: url(./images/main_3.jpg) no-repeat center center / cover;
+    background: url(./images/main_3.jpg) no-repeat left center / cover;
 }
 
 .main_menu div .main_2 li a {

@@ -58,14 +58,14 @@ h2 {
   box-sizing: border-box;
 }
 
-.cof_rel {
+.info_rel {
   width: 100%; 
   text-align: center;
   padding: 20px 0;
   gap: 15px;
 }
 
-.cof_rel table {
+.info_rel table {
   width: 86%;
   background-color: #F7F8F5;
   padding: 5px 20px;
@@ -74,15 +74,15 @@ h2 {
   font-size: 14px;
 }
 
-.cof_rel table th {
+.info_rel table th {
   color:var(--sub-color);
   font-weight: 900;
 }
 
-.cof_rel span h4 {
+.info_rel span h4 {
   font-weight: 900;
 }
-.cof_rel span h2 {
+.info_rel span h2 {
   margin-bottom: 10px;
 }
 
@@ -111,39 +111,13 @@ h2 {
   background-size: 140%;
 }
 
-.sec4 .biodegradable {
-  width: 86%;
-  margin: 15px auto;
-  gap: 20px;
-}
-
-.sec4 .biodegradable div{
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 5px;
-}
-
-.sec4 .biodegradable div img {
-  width: 100%;
-  border-radius: 30px;
-}
-
-.sec4 .biodegradable div h3 {
-  color:#626262;  
-}
-
-.sec4 .biodegradable div p {
-  word-break: break-all;
-  font-size: var(--list-font);
-}
-
 
 @media (min-width: 620px) {
   #tab-btn li a {
     padding: 10px 15px;
     
   }
-  .cof_rel table {
+  .info_rel table {
       padding: 15px 180px;
       font-size: 15px;
   }
