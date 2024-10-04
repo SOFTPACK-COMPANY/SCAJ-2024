@@ -96,7 +96,8 @@ font-size: var(--list-font);
     }
 
     .main_image {
-        background: url(../images/imbio_main_mob.jpg) no-repeat center bottom 40% / cover;
+        background: url(../images/imbio1-1.jpg) no-repeat center bottom 40% / cover;
+        background-size: 120%;
     }
     .sec1 {
         gap: 25px;

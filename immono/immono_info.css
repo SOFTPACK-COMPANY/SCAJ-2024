@@ -92,13 +92,13 @@ h2 {
 }
 
 .slide_ex1 {
-  background: url(../images/impaper1.jpg) no-repeat 50% 60% / cover;
-  background-size: 120%;
+  background: url(../images/immono2-1.jpg) no-repeat 50% 40% / cover;
+  background-size: 100%;
 }
 
 .slide_ex2 {
-  background: url(../images/impaper1.jpg) no-repeat 50% 60% / cover;
-  background-size: 120%;
+  background: url(../images/immono1-1.jpg) no-repeat 50% 40% / cover;
+  background-size: 100%;
 }
 
 
@@ -110,5 +110,17 @@ h2 {
   .info_rel table {
       padding: 15px 180px;
       font-size: 15px;
+  }
+
+  #tab-btn ul {
+    gap: 8px;
+  }
+
+  .eximg {
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 0;
+    width: 86%;
+    height: 350px;
   }
 }

@@ -113,6 +113,10 @@ h2 {
 
 
 @media (min-width: 620px) {
+  #tab-btn ul {
+    gap: 8px;
+  }
+
   #tab-btn li a {
     padding: 10px 15px;
     
@@ -127,5 +131,13 @@ h2 {
   .sec4 .biodegradable div {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+
+  .eximg {
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 0;
+    width: 86%;
+    height: 350px;
   }
 }

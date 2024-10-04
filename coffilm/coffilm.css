@@ -114,6 +114,11 @@
 
 @media (min-width: 620px) {
 
+    .main_image {
+        background: url(../images/main_3.jpg) no-repeat 30% / cover;
+        background-size: 150%;
+    }
+
     #tab-btn li a {
         padding: 10px 0;
         font-size: 15px;
@@ -162,7 +167,7 @@
         padding: 15px;
     }
     .sec3 {
-        margin: 0;
+        margin: 0 0 15px;
     }
     .sec3 div ul {
         margin: 0 auto;

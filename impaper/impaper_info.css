@@ -25,6 +25,8 @@ h2 {
   text-align: center;
   width: 45%;
   border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .info_rel {
@@ -76,5 +78,13 @@ h2 {
   .info_rel table {
       padding: 15px 180px;
       font-size: 15px;
+  }
+
+  .eximg {
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 0;
+    width: 86%;
+    height: 350px;
   }
 }

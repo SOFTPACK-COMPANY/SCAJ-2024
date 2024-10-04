@@ -125,4 +125,17 @@ h2 {
       padding: 15px 180px;
       font-size: 15px;
   }
+
+  #tab-btn ul {
+    gap: 8px;
+  }
+
+
+  .eximg {
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 0;
+    width: 86%;
+    height: 350px;
+  }
 }

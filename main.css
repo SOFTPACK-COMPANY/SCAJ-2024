@@ -60,7 +60,7 @@
     height: 70%;
     padding: 0 4.5%;
     gap: 10%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .main_menu span {
@@ -106,8 +106,12 @@
 }
 
 .main_menu div .main_1{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.immono {
+    grid-row: 1 / 3;
 }
 
 .main_menu div .main_1 .immono {
