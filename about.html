@@ -18,13 +18,26 @@
     <link rel="stylesheet" href="./about.css">
     <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./common.css">
-
     <link rel="stylesheet" href="./js/vegas.min.css">
 
-    <script src="../js/jquery-3.7.1.min.js"></script>
-    <script defer src="../js/header.js"></script>
-    <script src="./js/vegas.min.js"></script>
-    <script src="./js/banner-slide.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script defer src="./js/vegas.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".container").vegas({
+          slides: [
+            { src: "./images/about1.jpg" },
+            { src: "./images/about2.jpg" },
+            { src: "./images/about3.jpg" }
+          ],
+          timer: true,
+          delay: 5000,
+        //   overlay: './js/overlays/07.png',
+          shuffle: true,
+          animation: 'kenburnsDownLeft'
+        });
+      });
+    </script>
 
 </head>
 <body>
@@ -47,9 +60,9 @@
         <a href="./main.html" class="logo"></a>
     </header>
     
-    <div class="banner">
-        <div class="vegas-image-slide"></div>
+    <div class="container">
     </div>
+    
     <section class="flex column">
         <span>
             <p>現在、コーヒーパッケージには、コーヒー豆の味と香りを保たせるためにアルミニウム、プラスチックなどの複合素材が使われています。複合素材はリサイクルが困難で、炭素及び有害物質が発生するため、環境に害を与える恐れがあります。</p>
