@@ -49,6 +49,7 @@ nav {
 
 #menuToggle a li {
   font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
 #menuToggle input {
