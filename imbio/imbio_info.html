@@ -14,15 +14,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     
     <link rel="stylesheet" href="../header.css">
     <link rel="stylesheet" href="../common.css">
     <link rel="stylesheet" href="./imbio_info.css">
+    <link rel="stylesheet" href="../slide.css">
 
     <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
     <script defer src="../js/tab.js"></script>
     <script defer src="../js/header.js"></script>
-    
+    <script defer src="../js/slide.js"></script>
+
 </head>
 
 <body>
@@ -35,10 +39,11 @@
                 <span></span>
                 <span></span>
                 <ul id="menu" class="grid">
-                    <a href="../coffilm/coffilm.html"><li>COFFILM</li></a>
-                    <a href="#"><li>IMPAPER</li></a>
-                    <a href="#"><li>IMMONO</li></a>
-                    <a href="#"><li>ABOUT SOFTPACK</li></a>
+                    <a href="https://softpack-company.github.io/SCAJ-2024/coffilm/coffilm.html"><li>COFFILM</li></a>
+                    <a href="https://softpack-company.github.io/SCAJ-2024/immono/immono.html"><li>IMMONO</li></a>
+                    <a href="https://softpack-company.github.io/SCAJ-2024/impaper/impaper.html"><li>IMPAPER</li></a>
+                    <a href="https://softpack-company.github.io/SCAJ-2024/imbio/imbio.html"><li>IMBIO</li></a>
+                    <a href="https://softpack-company.github.io/SCAJ-2024/about.html"><li>ABOUT SOFTPACK</li></a>
                 </ul>
             </div>
         </nav>
@@ -51,13 +56,24 @@
         <div id="tab-btn">
           <ul class="flex">
             <li class="active"><a href="#" class="yellow">新製品です</a></li>
-            <li><a href="#">ボックスパウチ</a></li>
+            <li><a href="#">ドリップバッグ</a></li>
           </ul>
         </div>
 
         <div id="tab-cont">
             <div class="section sec1 flex column">
-                <div class="slide_ex1 eximg"></div>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="../images/imbio1-1.jpg" alt="cof"></div>
+                      <div class="swiper-slide"><img src="../images/imbio1-2.jpg" alt="cof"></div>
+                      <div class="swiper-slide"><img src="../images/imbio1-3.jpg" alt="cof"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
                 <div class="bio_1 info_rel flex column">
                     <span>
                         <h4>PLANTIC SAND LAMI</h4>
@@ -74,7 +90,17 @@
             </div>
             
             <div class="section sec2 flex">
-                <div class="slide_ex2 eximg"></div>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="../images/imbio2-1.jpg" alt="cof"></div>
+                      <div class="swiper-slide"><img src="../images/imbio2-2.jpg" alt="cof"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
                 <div class="bio_2 info_rel flex column">
                     <span>
                         <h4>COFFILM™</h4>

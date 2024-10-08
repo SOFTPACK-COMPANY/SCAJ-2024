@@ -1,80 +1,57 @@
-#slide {
-    width:100%;
-    height: 300px;
-    position: relative;
-    /* margin:1vw 0 0 0; */
+html,
+body {
+  position: relative;
+  height: 100%;
 }
 
-#slide .slider-container {
-    width: 100%;
-    overflow: hidden;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+}
+
+.mySwiper {
     border-radius: 0 30px 30px 0;
 }
 
-#slide .slider-container span{
-    position: absolute;
-    z-index: 99;
-    top:50%;
-    cursor: pointer;
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#slide .slider-container .leftBtn{
-    width: 10px;
-    height: 19px;
-    left: 6%;
-    transform: translate(0,-50%);
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-#slide .slider-container .rightBtn{
-    width: 10px;
-    height: 19px;
-    right: 6%;
-    transform: translate(0,-50%);
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#slide .leftBtn i {
-    display: block;
-    width: 10px;
-    height: 19px;
-    background: url(./images/leftbtn.svg) no-repeat center center / cover;
+.swiper-button-next, .swiper-button-prev {
+    color: var(--main-color);
 }
 
-#slide .rightBtn i {
-    display: block;
-    width: 10px;
-    height: 19px;
-    background: url(./images/rightbtn.svg) no-repeat center center / cover;
+.swiper-pagination-bullet-active {
+    background: var(--main-color);
 }
 
-#slide .slider-container .slider{
-    display:flex;
-    width: 101%;
-}
-
-#slide .slider-container .slider span{
-    display: block;
-    position: relative;
-    min-width: 100%;
-    height: 300px;
-}
-
-.pagination{
-    display:flex;
-    gap: 7px;
-    position: absolute;
-    bottom:10px;
-    left:50%;
-    transform: translate(-50%,0);
-    /* z-index: 99; */
-}
-
-.pagination li{
-    width:7px;
-    height:7px;
-    border-radius: 10px;
-    background:#ffffff;
-}
-
-.pagination .active{
-    background:#85bb5a;
+@media (min-width: 620px) {
+    .mySwiper {
+        margin: 0 auto;
+        width: 86%;
+        height: 450px;
+        border-radius: 30px;
+      }
 }

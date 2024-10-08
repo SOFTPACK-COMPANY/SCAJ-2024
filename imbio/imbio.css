@@ -118,6 +118,7 @@ font-size: var(--list-font);
     }
     .sec2 {
         gap: 20px;
+        margin-bottom: 0;
     }
     /* .sec2 ul:nth-child(2) li img {
         width: 2%;

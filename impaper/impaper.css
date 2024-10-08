@@ -140,7 +140,7 @@
     }
 
     .main_image {
-        background: url(../images/impaper_main_mob.jpg) no-repeat center bottom 40% / cover;
+        background: url(../images/impaper1.jpg) no-repeat center bottom 40% / cover;
     }
     .sec1 {
         gap: 25px;
@@ -161,13 +161,8 @@
     }
     .sec2 {
         gap: 20px;
+        margin-bottom: 30px;
     }
-    /* .sec2 ul:nth-child(2) li img {
-        width: 2%;
-        padding: 0;
-        padding-right: 30px;
-        transform:rotate(-90deg);
-    } */
 
     .sec2 ul:nth-child(odd) li {
         text-align: center;
@@ -183,4 +178,6 @@
     .sec2 ul:last-child li:nth-child(2) img {
         height: 250px;
     }
+
+
 }

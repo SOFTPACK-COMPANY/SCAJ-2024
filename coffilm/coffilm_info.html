@@ -14,13 +14,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="../header.css">
     <link rel="stylesheet" href="../common.css">
     <link rel="stylesheet" href="./coffilm_info.css">
     <link rel="stylesheet" href="../slide.css">
 
     <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
     <script defer src="../js/tab.js"></script>
     <script defer src="../js/header.js"></script>
     <script defer src="../js/slide.js"></script>
@@ -37,10 +39,11 @@
                 <span></span>
                 <span></span>
                 <ul id="menu" class="grid">
-                    <a href="./coffilm.html"><li>COFFILM</li></a>
-                    <a href="#"><li>IMPAPER</li></a>
-                    <a href="#"><li>IMMONO</li></a>
-                    <a href="#"><li>ABOUT SOFTPACK</li></a>
+                    <a href="https://softpack-company.github.io/SCAJ-2024/coffilm/coffilm.html"><li>COFFILM</li></a>
+                    <a href="https://softpack-company.github.io/SCAJ-2024/immono/immono.html"><li>IMMONO</li></a>
+                    <a href="https://softpack-company.github.io/SCAJ-2024/impaper/impaper.html"><li>IMPAPER</li></a>
+                    <a href="https://softpack-company.github.io/SCAJ-2024/imbio/imbio.html"><li>IMBIO</li></a>
+                    <a href="https://softpack-company.github.io/SCAJ-2024/about.html"><li>ABOUT SOFTPACK</li></a>
                 </ul>
             </div>
         </nav>
@@ -60,26 +63,20 @@
 
         <div id="tab-cont">
             <div class="section sec1 flex column">
-                <div id="slide">
-                    <div class="slider-container">
-                        <span class="leftBtn">
-                            <i class="fa-solid fa-chevron-left"></i>
-                        </span>
-                        <div class="slider">
-                            <span class="first-img"></span>
-                            <span></span>
-                            <span class="last-img"></span>
-                        </div>
-                        <span class="rightBtn">
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </span>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="../images/cof_zip_1.jpg" alt="cof"></div>
+                      <div class="swiper-slide"><img src="../images/cof_zip_2.jpg" alt="cof"></div>
+                      <div class="swiper-slide"><img src="../images/cof_zip_3.jpg" alt="cof"></div>
                     </div>
-                    <ul class="pagination">
-                        <li class="active" data-index="1"></li>
-                        <li data-index="2"></li>
-                        <li data-index="3"></li>
-                      </ul>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                
+
                 <div class="cof_1 info_rel flex column">
                     <span>
                         <h4>COFFILM™</h4>
@@ -108,21 +105,18 @@
             </div>
             
             <div class="section sec2 flex">
-                <div id="slide">
-                    <div class="slider-container">
-                        <span class="leftBtn">
-                            <i class="fa-solid fa-chevron-left"></i>
-                        </span>
-                        <div class="slider">
-                            <span class="first-img"></span>
-                            <span></span>
-                            <span class="last-img"></span>
-                        </div>
-                        <span class="rightBtn">
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </span>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="../images/cof_box_1.jpg" alt="cof"></div>
+                      <div class="swiper-slide"><img src="../images/cof_box_2.jpg" alt="cof"></div>
+                      <div class="swiper-slide"><img src="../images/cof_box_3.jpg" alt="cof"></div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
+
                 <div class="cof_2 info_rel flex column">
                     <span>
                         <h4>COFFILM™</h4>
@@ -152,21 +146,18 @@
             </div>
 
             <div class="section sec3 flex column">
-                <div id="slide">
-                    <div class="slider-container">
-                        <span class="leftBtn">
-                            <i class="fa-solid fa-chevron-left"></i>
-                        </span>
-                        <div class="slider">
-                            <span class="first-img"></span>
-                            <span></span>
-                            <span class="last-img"></span>
-                        </div>
-                        <span class="rightBtn">
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </span>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="../images/cof_m_1.jpg" alt="cof"></div>
+                      <div class="swiper-slide"><img src="../images/cof_m_2.jpg" alt="cof"></div>
+                      <div class="swiper-slide"><img src="../images/cof_m_3.jpg" alt="cof"></div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
+
                 <div class="cof_3 info_rel flex column">
                     <span>
                         <h4>COFFILM™</h4>
@@ -192,21 +183,17 @@
             </div>
 
             <div class="section sec4 flex column">
-                <div id="slide">
-                    <div class="slider-container">
-                        <span class="leftBtn">
-                            <i class="fa-solid fa-chevron-left"></i>
-                        </span>
-                        <div class="slider">
-                            <span class="first-img"></span>
-                            <span></span>
-                            <span class="last-img"></span>
-                        </div>
-                        <span class="rightBtn">
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </span>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="../images/cof_drip_1.jpg" alt="cof"></div>
+                      <div class="swiper-slide"><img src="../images/cof_drip_2.jpg" alt="cof"></div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
+
                 <div class="cof_4 info_rel flex column">
                     <span>
                         <h4>COFFILM™</h4>

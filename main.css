@@ -57,10 +57,10 @@
 /* menu */
 
 .main_menu {
-    height: 70%;
+    height: 67%;
     padding: 0 4.5%;
-    gap: 10%;
-    /* justify-content: space-between; */
+    gap: 5%;
+    justify-content: space-between;
 }
 
 .main_menu span {
@@ -116,32 +116,30 @@
 
 .main_menu div .main_1 .immono {
     background: url(./images/main_1.jpg) no-repeat center bottom 25%  / cover;
-    overflow: hidden;
 }
 
 .main_menu div .main_1 .immono a {
-    background: url(./images/immono.svg) no-repeat center bottom 25% / contain;
-    background-size: 50%;
+    background: url(./images/immono.svg) no-repeat center bottom 20px / contain;
+    background-size: 70%;
 }
 
 .main_menu div .main_1 .impaper {
-    background: url(./images/main_2.jpg) no-repeat center bottom 20%  / cover;
-    overflow: hidden;
+    background: url(./images/impaper1.jpg) no-repeat center center / cover;
+    background-size: 140%;
 }
 
 .main_menu div .main_1 .impaper a {
-    background: url(./images/impaper.svg) no-repeat center bottom 25% / contain;
-    background-size: 55%;
+    background: url(./images/impaper.svg) no-repeat center bottom 20px / contain;
+    background-size: 75%;
 }
 
 .main_menu div .main_1 .imbio {
-    background: url(./images/imbio1-1.jpg) no-repeat center bottom 25% / cover;
-    overflow: hidden;
+    background: url(./images/imbio1-2.jpg) no-repeat center bottom 25% / cover;
 }
 
 .main_menu div .main_1 .imbio a {
-    background: url(./images/imbio.svg) no-repeat center bottom 25% / contain;
-    background-size: 35%;
+    background: url(./images/imbio.svg) no-repeat center bottom 20px / contain;
+    background-size: 50%;
 }
 
 .main_menu div span{
@@ -230,6 +228,20 @@ footer h5, a {
         width: 7px;}
     .main_menu div:last-child span::after {
     width: 7px;}
+
+
+    .main_menu div .main_1 .immono a {
+        background: url(./images/immono.svg) no-repeat center bottom 30px / contain;
+        background-size: 70%;
+    }
+    .main_menu div .main_1 .impaper a {
+        background: url(./images/impaper.svg) no-repeat center bottom 30px / contain;
+        background-size: 75%;
+    }
+    .main_menu div .main_1 .imbio a {
+        background: url(./images/imbio.svg) no-repeat center bottom 30px / contain;
+        background-size: 50%;
+    }
 }
 
 @media (min-width: 1024px) {
