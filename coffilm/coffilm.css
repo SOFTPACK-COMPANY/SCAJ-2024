@@ -31,7 +31,7 @@
     border-radius: 30px;
     transition: 0.3s;
     z-index: 0;
-    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
 }
 
 .sec1 .info_button:hover {
